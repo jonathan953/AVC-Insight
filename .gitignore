@@ -1,13 +1,12 @@
-# Ambiente virtual
+# Arquivos de ambiente virtual
 venv/
-
-# Arquivos de cache do Python
+env/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
 
-# Configurações locais e arquivos temporários
-.env
-.DS_Store
+# Configurações de IDEs
 .vscode/
+.idea/

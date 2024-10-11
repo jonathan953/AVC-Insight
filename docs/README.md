@@ -1,11 +1,12 @@
 
-## Wine Quality Prediction Project
+## AVC Insight Prediction Project
 
 ### Descrição do Projeto
-Este projeto tem como objetivo prever a qualidade do vinho (tinto e branco) com base em suas características físico-químicas. Utilizamos um conjunto de dados do UCI Machine Learning Repository que inclui informações sobre vinhos como acidez, teor alcoólico, pH, entre outros atributos, para treinar e testar vários modelos de machine learning.
+Este é um projeto de análise preditiva focado em prever a ocorrência de Acidente Vascular Cerebral (AVC) e identificar padrões de risco em pacientes. Utilizando dados de fatores de risco, como idade, hipertensão, histórico de doenças cardíacas, níveis de glicose e atividade física, este projeto visa fornecer insights para avaliação de risco, prevenção e agrupamento de perfis de saúde.
 
 O projeto é dividido em três partes principais:
 
-- **Classificação:** Prever se o vinho é de alta ou baixa qualidade.
-- **Regressão:** Prever a nota exata de qualidade do vinho em uma escala de 0 a 10.
-- **Agrupamento (Clustering):** Agrupar vinhos com características similares, sem o uso das notas de qualidade como rótulo.
+- **Classificação:** Classificar pacientes em grupos de alto e baixo risco de AVC.
+- **Regressão:** Prever o risco individual de AVC de forma contínua, com modelos de regressão.
+- **Agrupamento (Clustering):** Agrupar pacientes com perfis de risco semelhantes, permitindo identificar subgrupos específicos para possíveis intervenções e recomendações de saúde.
+
